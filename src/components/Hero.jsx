@@ -8,14 +8,14 @@ const Hero = () => {
   };
 
   return (
-    <div className='bg-[#F4F2F2]'>
+    <div className='bg-[#F4F2F2] mb-12'>
       <div className='w-full max-w-[1440px] px-5 mx-auto'>
         <div className='py-20' style={divStyle}>
           <div className='mb-16'>
-            <h2 className='font-normal text-[54px] leading-[59px] mb-8'>Продайте <br /> Швейцарские часы <br /> за 90% стоимости</h2>
+            <h2 className='font-normal text-[32px] leading-[35px] md:text-[54px] md:leading-[59px] mb-8'>Продайте <br /> Швейцарские часы <br /> за 90% стоимости</h2>
             <button className='border border-black py-4 px-6'>Получить оценку часов</button>
           </div>
-          <ul className="flex flex-col gap-8">
+          <ul className="grid gap-8">
             <li className='flex items-center gap-3'>
               <img className='w-8 h-8' src={heropul} alt="" />
               <span>Деньги уже через 2 <br />
@@ -30,12 +30,7 @@ const Hero = () => {
             </li>
             <li className='flex items-center gap-3'>
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
-                <circle cx="16" cy="16.0002" r="7.24999" stroke="black" stroke-width="1.5" />
-                <path d="M16 13.0001V16.5001L18.5 19.0001" stroke="black" stroke-width="1.5" />
-                <line x1="11.749" y1="22" x2="11.749" y2="30" stroke="black" stroke-width="1.5" />
-                <line x1="11.749" y1="2" x2="11.749" y2="9.99999" stroke="black" stroke-width="1.5" />
-                <line x1="19.751" y1="22" x2="19.751" y2="30" stroke="black" stroke-width="1.5" />
-                <line x1="19.751" y1="2" x2="19.751" y2="9.99999" stroke="black" stroke-width="1.5" />
+                <circle cx="16" cy="16.0002" r="7.24999" stroke="black" />
               </svg>
               <span>Работаем с <br />
                 2004 года</span>
